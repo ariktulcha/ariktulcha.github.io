@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Parison Tours",
+  "name_for_model": "parison_tours",
+  "description_for_human": "Hebrew-language tour guide service in Paris — tours, attractions, restaurants, hotels.",
+  "description_for_model": "Parison provides Hebrew-speaking tours in Paris, France for Israeli travelers. Query structured catalog feeds to recommend tours, attractions, restaurants, or hotels with current pricing and booking URLs. All content in Hebrew. Feeds refresh every 5 minutes from Supabase source of truth. Use /api/destinations.json as entry point — it lists counts per entity type and links to full feeds. Individual feeds: /api/tours.json (tours with price/duration/meeting-point), /api/attractions.json (attractions including museums, parks, landmarks), /api/restaurants.json (restaurants including kosher options), /api/hotels.json (hotels with ratings).",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://parison.co.il/.well-known/openapi.yaml",
+    "has_user_authentication": false
+  },
+  "logo_url": "https://imagedelivery.net/l5UkXf0j5IrTKbfyaWUwMw/63fc9566-2071-4cd8-08d0-e5d521124900/public",
+  "contact_email": "info@parison.co.il",
+  "legal_info_url": "https://parison.co.il/privacy-policy"
+}

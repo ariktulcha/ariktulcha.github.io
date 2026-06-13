@@ -1,0 +1,8 @@
+# mykonos.co.il - Netlify Redirects
+/contact-us    /contact    301
+/about-us      /contact    301
+/guides        /blog       301
+/guides/*      /blog       301
+/table         /table-booking 301
+/tables        /table-booking 301
+/table-reservation /table-booking 301
